@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Penantian - Kecamatan Pulau Panggung</title>
+    <link rel="icon" href="images/Logo Tanggamus.png" type="image/png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/Logo Tanggamus.png" alt="Logo Kabupaten Tanggamus" class="logo">
+                <div class="brand-text">
+                    <h1>Desa Penantian</h1>
+                    <p>Kecamatan Pulau Panggung, Kabupaten Tanggamus</p>
+                </div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Beranda</a></li>
+                <li><a href="#profil">Profil Desa</a></li>
+                <li><a href="#pemerintahan">Pemerintahan</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" type="button" aria-label="Buka menu navigasi" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>Selamat Datang di <span class="highlight">Desa Penantian</span></h2>
+            <p>Desa yang asri, nyaman, dan penuh semangat gotong royong di Kecamatan Pulau Panggung, Kabupaten Tanggamus</p>
+            <div class="hero-buttons">
+                <a href="#profil" class="btn btn-primary">Selengkapnya</a>
+                <a href="#kontak" class="btn btn-secondary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Desa -->
+    <section class="section" id="profil">
+        <div class="container">
+            <div class="section-title">
+                <h2>Profil Desa</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="profil-grid">
+                <div class="profil-image">
+                    <iframe
+                        src="https://www.google.com/maps?q=Desa+Penantian,+Kecamatan+Pulau+Panggung,+Kabupaten+Tanggamus&output=embed"
+                        title="Peta interaktif Desa Penantian"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen></iframe>
+                    <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Desa+Penantian%2C+Kecamatan+Pulau+Panggung%2C+Kabupaten+Tanggamus" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-map-location-dot"></i> Buka di Google Maps
+                    </a>
+                </div>
+                <div class="profil-text">
+                    <h3>Desa Penantian</h3>
+                    <p>Desa Penantian merupakan salah satu desa yang terletak di Kecamatan Pulau Panggung, Kabupaten Tanggamus, Provinsi Lampung. Desa ini dikenal dengan keindahan alamnya yang masih alami serta masyarakatnya yang ramah dan menjunjung tinggi nilai gotong royong.</p>
+                    <p>Sebagian besar masyarakat Desa Penantian bermata pencaharian sebagai petani, dengan padi sebagai salah satu komoditas utama. Selain sektor pertanian, masyarakat juga mengembangkan peternakan bebek petelur sebagai bagian dari potensi ekonomi desa. Berbagai potensi tersebut terus dikembangkan untuk mendukung terwujudnya desa yang mandiri, sejahtera, dan berdaya saing.</p>
+                    <div class="profil-stats">
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <h4>1.250+</h4>
+                            <p>Penduduk</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-home"></i>
+                            <h4>350+</h4>
+                            <p>Kepala Keluarga</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-tree"></i>
+                            <h4>5</h4>
+                            <p>Dusun</p>
+                        </div>
+                    </div>
+                    <div class="profil-detail-grid">
+                        <div class="profil-detail">
+                            <span>Wilayah</span>
+                            <strong>Desa Penantian</strong>
+                        </div>
+                        <div class="profil-detail">
+                            <span>Kecamatan</span>
+                            <strong>Pulau Panggung</strong>
+                        </div>
+                        <div class="profil-detail">
+                            <span>Kabupaten</span>
+                            <strong>Tanggamus</strong>
+                        </div>
+                        <div class="profil-detail">
+                            <span>Provinsi</span>
+                            <strong>Lampung</strong>
+                        </div>
+                        <div class="profil-detail">
+                            <span>Potensi Desa</span>
+                            <strong>Padi dan bebek petelur</strong>
+                        </div>
+                        <div class="profil-detail">
+                            <span>Kode Pos</span>
+                            <strong>35379</strong>
+                        </div>
+                    </div>
+                    <p class="profil-source">Data profil dan kependudukan perlu diperbarui berdasarkan monografi desa atau sumber resmi terbaru.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visi & Misi -->
+    <section class="section bg-light" id="visi-misi">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visi & Misi</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="visi-misi-grid">
+                <div class="visi-card">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Visi</h3>
+                    <p>"Terwujudnya Desa Penantian yang Maju, Mandiri, Sejahtera, dan Berbudaya Berlandaskan Gotong Royong dan Nilai-nilai Keagamaan"</p>
+                </div>
+                <div class="misi-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Misi</h3>
+                    <ul>
+                        <li>Meningkatkan kualitas sumber daya manusia melalui pendidikan dan pelatihan</li>
+                        <li>Mengembangkan potensi desa di bidang pertanian, perkebunan, dan pariwisata</li>
+                        <li>Membangun infrastruktur desa yang memadai dan berkelanjutan</li>
+                        <li>Memperkuat kelembagaan desa dan partisipasi masyarakat</li>
+                        <li>Melestarikan budaya dan kearifan lokal desa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Struktur Organisasi -->
+    <section class="section" id="pemerintahan">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pemerintahan Desa</h2>
+                <div class="divider"></div>
+                <p>Struktur organisasi Pemerintah Desa Penantian</p>
+            </div>
+            <div class="struktur-wrap">
+                <!-- Kepala Desa -->
+                <div class="struktur-card kepala-desa">
+                    <img src="images/Aprinaldo,sh-Kepala Desa.jpeg" alt="Aprinaldo, Kepala Desa" loading="lazy">
+                    <h4>Aprinaldo, S.H.</h4>
+                    <p>Kepala Desa</p>
+                </div>
+
+                <div class="struktur-row">
+                    <div class="struktur-card">
+                        <img src="images/Diki Setiawan-Sekertaris Desa.jpeg" alt="Diki Setiawan, Sekretaris Desa" loading="lazy">
+                        <h4>Diki Setiawan</h4>
+                        <p>Sekretaris Desa</p>
+                    </div>
+                    <div class="struktur-card">
+                        <img src="images/Anggi Everindo-Bendahara.jpeg" alt="Anggi Everindo, Bendahara Desa" loading="lazy">
+                        <h4>Anggi Everindo</h4>
+                        <p>Bendahara Desa</p>
+                    </div>
+                </div>
+
+                <div class="struktur-row perangkat-row">
+                    <div class="struktur-card">
+                        <img src="images/Rahayu-Kasi Pemerintahan.jpeg" alt="Rahayu, Kasi Pemerintahan" loading="lazy">
+                        <h4>Rahayu</h4>
+                        <p>Kasi Pemerintahan</p>
+                    </div>
+                    <div class="struktur-card">
+                        <img src="images/Apriwijaya-Kasi Kesejahteraan.jpeg" alt="Apriwijaya, Kepala Seksi Kesejahteraan" loading="lazy">
+                        <h4>Apriwijaya</h4>
+                        <p>Kepala Seksi Kesejahteraan</p>
+                    </div>
+                    <div class="struktur-card">
+                        <img src="images/Doni Setiawan-Kasi Kesejahteraan.png" alt="Doni Setiawan, Kasi Kesejahteraan" loading="lazy">
+                        <h4>Doni Setiawan</h4>
+                        <p>Kasi Kesejahteraan</p>
+                    </div>
+                    <div class="struktur-card">
+                        <img src="images/Iman Usman-Perencanaan.jpeg" alt="Iman Usman, Perencanaan" loading="lazy">
+                        <h4>Iman Usman</h4>
+                        <p>Perencanaan</p>
+                    </div>
+                    <div class="struktur-card">
+                        <img src="images/Rizki okta nugraha-Kasi Pelayanan.png" alt="Rizki Okta Nugraha, Kasi Pelayanan" loading="lazy">
+                        <h4>Rizki Okta Nugraha</h4>
+                        <p>Kasi Pelayanan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Desa -->
+    <section class="section bg-light" id="layanan">
+        <div class="container">
+            <div class="section-title">
+                <h2>Layanan Desa</h2>
+                <div class="divider"></div>
+                <p>Informasi layanan administrasi untuk masyarakat Desa Penantian</p>
+            </div>
+            <div class="layanan-grid">
+                <article class="layanan-card">
+                    <div class="card-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3>Administrasi Surat</h3>
+                    <p>Informasi pengurusan surat pengantar dan surat keterangan desa.</p>
+                    <a class="layanan-link" href="https://wa.me/6281272921974" target="_blank" rel="noopener noreferrer">Tanyakan Layanan <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="layanan-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Data Kependudukan</h3>
+                    <p>Hubungi kantor desa untuk informasi administrasi kependudukan.</p>
+                    <a class="layanan-link" href="https://wa.me/6281272921974" target="_blank" rel="noopener noreferrer">Hubungi Kantor Desa <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="layanan-card">
+                    <div class="card-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Pengaduan Masyarakat</h3>
+                    <p>Sampaikan pertanyaan atau pengaduan melalui kanal WhatsApp desa.</p>
+                    <a class="layanan-link" href="https://wa.me/6281272921974" target="_blank" rel="noopener noreferrer">Kirim Pengaduan <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="section" id="kontak">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Kami</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="kontak-grid">
+                <div class="kontak-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Desa Penantian, Kecamatan Pulau Panggung<br>Kabupaten Tanggamus, Lampung 35379</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 812-7292-1974</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:Pekonpenantian@gmail.com">Pekonpenantian@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Jam Kerja</h4>
+                            <p>Senin - Jumat: 08:00 - 16:00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="kontak-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subjek" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Pesan" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/Logo Tanggamus.png" alt="Logo Kabupaten Tanggamus" class="footer-logo" loading="lazy">
+                    <h3>Desa Penantian</h3>
+                    <p>Kecamatan Pulau Panggung<br>Kabupaten Tanggamus, Lampung</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#profil">Profil Desa</a></li>
+                        <li><a href="#pemerintahan">Pemerintahan</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Contact</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/6281272921974" target="_blank" rel="noopener noreferrer" aria-label="Hubungi melalui WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Desa Penantian. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" title="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        const backToTop = document.getElementById('backToTop');
+        const sections = document.querySelectorAll('section[id]');
+        const contactForm = document.getElementById('contactForm');
+
+        hamburger.addEventListener('click', () => {
+            const isOpen = hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active', isOpen);
+            hamburger.setAttribute('aria-expanded', isOpen);
+        });
+
+        navLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const currentSection = [...sections].find((section) =>
+                window.scrollY >= section.offsetTop - 120 &&
+                window.scrollY < section.offsetTop + section.offsetHeight - 120
+            );
+
+            navLinks.forEach((link) => {
+                link.classList.toggle('active', currentSection && link.getAttribute('href') === `#${currentSection.id}`);
+            });
+            backToTop.classList.toggle('show', window.scrollY > 400);
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        contactForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const name = document.getElementById('name').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+            const whatsappMessage = `Nama: ${name}\nSubjek: ${subject}\nPesan: ${message}`;
+
+            window.open(`https://wa.me/6281272921974?text=${encodeURIComponent(whatsappMessage)}`, '_blank', 'noopener,noreferrer');
+        });
+    </script>
+
+</body>
+</html>
+
